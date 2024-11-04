@@ -5,12 +5,15 @@ import {GelatoRelayContextERC2771} from "@gelatonetwork/relay-context/contracts/
 
 contract SimpleContractSyncFee is GelatoRelayContextERC2771 {
     uint256 public myNumber;
+    address owner;
 
     constructor(uint256 _number) {
         myNumber = _number;
+        owner = msg.sender;
     }
 
-    function updateNumber(uint256 _number) public {
+    function updateNumber(uint256 _number) public onlyGelatoRelayERC2771 {
+        require(_getMsgSender() == owner, "NOT AUTHORIZED");
         myNumber = _number;
         _transferRelayFee();
     }
