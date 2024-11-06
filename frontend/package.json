@@ -14,6 +14,7 @@
     "@types/react-dom": "^18.0.0",
     "dotenv": "^16.4.5",
     "ethers": "^6.4.0",
+    "flowbite-react": "^0.10.2",
     "ky": "^1.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -44,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
   }
 }
