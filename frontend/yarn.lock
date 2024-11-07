@@ -1678,10 +1678,10 @@
     isomorphic-ws "^5.0.0"
     ws "^8.5.0"
 
-"@gelatonetwork/web3-functions-sdk@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@gelatonetwork/web3-functions-sdk/-/web3-functions-sdk-2.4.4.tgz#d8a051475c8774b94df6daf6b6a4c2db64fd5e05"
-  integrity sha512-u0C0mSFJeKllOL4CDfu5zrddkjEFqZX3t93wrsQ+CJQx4LMkXbCPRSTzvNyPGofSa0H/WBu5eArdAOoHWeI7WQ==
+"@gelatonetwork/web3-functions-sdk@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@gelatonetwork/web3-functions-sdk/-/web3-functions-sdk-2.3.0.tgz#f9d3271ab0d4e4659ed41c6123bd9f753aa5d4b5"
+  integrity sha512-M8ll1Z/9VMkuopegV7WfzR9M0dZPH9Y502BPW9cODGdLXAOMAlpvHLcniJGItaLZhdstwxyGuFhLqSwwpOX10g==
   dependencies:
     "@ethersproject/address" "^5.7.0"
     "@ethersproject/contracts" "^5.7.0"
@@ -1689,11 +1689,11 @@
     "@ethersproject/units" "^5.7.0"
     "@types/dockerode" "^3.3.11"
     ajv "^8.11.0"
-    axios "^1.6.8"
+    axios "1.1.2"
     body-parser "^1.20.1"
     colors "^1.4.0"
     deep-object-diff "^1.1.9"
-    deno-bin "^1.44.4"
+    deno-bin "^1.36.0"
     dockerode "^3.3.4"
     dotenv "^16.0.3"
     esbuild "^0.17.4"
@@ -3381,12 +3381,12 @@ axios@0.27.2:
     follow-redirects "^1.14.9"
     form-data "^4.0.0"
 
-axios@^1.6.8:
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.7.tgz#2f554296f9892a72ac8d8e4c5b79c14a91d0a47f"
-  integrity sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==
+axios@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.1.2.tgz#8b6f6c540abf44ab98d9904e8daf55351ca4a331"
+  integrity sha512-bznQyETwElsXl2RK7HLLwb5GPpOLlycxHCtrpDR/4RqqBzjARaOTo3jz4IgtntWUYee7Ne4S8UHd92VCuzPaWA==
   dependencies:
-    follow-redirects "^1.15.6"
+    follow-redirects "^1.15.0"
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
@@ -4453,7 +4453,7 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
-deno-bin@^1.44.4:
+deno-bin@^1.36.0:
   version "1.46.3"
   resolved "https://registry.yarnpkg.com/deno-bin/-/deno-bin-1.46.3.tgz#8aac980aff7307fe5626bf117f9e8a9f724ddbfa"
   integrity sha512-soxZGY1NeTdjltCfDTf5aE3moOaP6lbVec8RKdOQByzoAxwfUuxF7RrC12y1kcsiY5vFsOovatXi3pKtvFuR9g==
@@ -5566,7 +5566,7 @@ flowbite@^2.0.0:
     flowbite-datepicker "^1.3.0"
     mini-svg-data-uri "^1.4.3"
 
-follow-redirects@^1.0.0, follow-redirects@^1.14.9, follow-redirects@^1.15.6:
+follow-redirects@^1.0.0, follow-redirects@^1.14.9, follow-redirects@^1.15.0:
   version "1.15.9"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.9.tgz#a604fa10e443bf98ca94228d9eebcc2e8a2c8ee1"
   integrity sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==
