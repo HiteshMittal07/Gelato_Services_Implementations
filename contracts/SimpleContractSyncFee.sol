@@ -12,6 +12,8 @@ contract SimpleContractSyncFee is GelatoRelayContextERC2771 {
         owner = msg.sender;
     }
 
+    receive() external payable {}
+
     function updateNumber(uint256 _number) public onlyGelatoRelayERC2771 {
         require(_getMsgSender() == owner, "NOT AUTHORIZED");
         myNumber = _number;
