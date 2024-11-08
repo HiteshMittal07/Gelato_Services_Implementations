@@ -3,6 +3,7 @@ import "./App.css";
 import { Button, Card, TextInput } from "flowbite-react";
 import { SponsoredCall } from "./RelayERC2771/SponsoredCallERC2771";
 import { SyncFeeCallERC2771 } from "./RelayERC2771/SyncFeeCallERC2771";
+import Header from "./Header";
 function App() {
   const update_number_sponsored = async () => {
     const updateNumber = (document.querySelector("#number") as HTMLInputElement)
@@ -17,6 +18,7 @@ function App() {
   };
   return (
     <div className="App">
+      <Header />
       <div className="flex flex-row gap-5 justify-center mt-64">
         <Card className="max-w-sm">
           <h2>Sponsored Call ERC2771</h2>
