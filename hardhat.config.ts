@@ -1,10 +1,18 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
-
+import "@gelatonetwork/web3-functions-sdk/hardhat-plugin";
+import "@typechain/hardhat";
+import "@nomiclabs/hardhat-ethers";
+import "hardhat-deploy";
 require("dotenv").config();
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY as string;
 const config: HardhatUserConfig = {
+  w3f: {
+    rootDir: "./frontend/src",
+    debug: false,
+    networks: ["hardhat", "sepolia"], //(multiChainProvider) injects provider for these networks
+  },
   solidity: "0.8.27",
   networks: {
     sepolia: {
